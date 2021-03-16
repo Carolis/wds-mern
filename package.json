@@ -1,0 +1,21 @@
+{
+  "name": "wds-mern",
+  "version": "1.0.0",
+  "description": "Node, Express, MongoDB",
+  "main": "server.js",
+  "repository": "https://github.com/Carolis/wds-mern.git",
+  "author": "Carolina Ale",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  }
+}
